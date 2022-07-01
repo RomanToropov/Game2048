@@ -22,7 +22,7 @@
             <TextBlock TextAlignment="Center" FontFamily="Gill Sans MT Ext Condensed Bold" FontWeight="Bold" Margin="10" Foreground="Red" Opacity="0.50" >
                 <TextBlock.Style>
                     <Style TargetType="TextBlock">
-                        <Setter Property="Text" Value="ИГРА &#10; закончена!"/>
+                        <Setter Property="Text" Value="ПРОИГРАЛ(А)!"/>
                         <Style.Triggers>
                             <DataTrigger Binding="{Binding IsGameOver}" Value="false">
                                 <Setter Property="Text" Value="{x:Null}"/>
